@@ -64,39 +64,7 @@ static CGFloat CHTFloorCGFloat(CGFloat value) {
   if (_headerHeight != headerHeight) {
     _headerHeight = headerHeight;
     [self invalidateLayout];
-  }
-}
-
-- (void)setFooterHeight:(CGFloat)footerHeight {
-  if (_footerHeight != footerHeight) {
-    _footerHeight = footerHeight;
-    [self invalidateLayout];
-  }
-}
-
-- (void)setHeaderInset:(UIEdgeInsets)headerInset {
-  if (!UIEdgeInsetsEqualToEdgeInsets(_headerInset, headerInset)) {
-    _headerInset = headerInset;
-    [self invalidateLayout];
-  }
-}
-
-- (void)setFooterInset:(UIEdgeInsets)footerInset {
-  if (!UIEdgeInsetsEqualToEdgeInsets(_footerInset, footerInset)) {
-    _footerInset = footerInset;
-    [self invalidateLayout];
-  }
-}
-
-- (void)setSectionInset:(UIEdgeInsets)sectionInset {
-  if (!UIEdgeInsetsEqualToEdgeInsets(_sectionInset, sectionInset)) {
-    _sectionInset = sectionInset;
-    [self invalidateLayout];
-  }
-}
-
-- (void)setItemRenderDirection:(CHTCollectionViewWaterfallLayoutItemRenderDirection)itemRenderDirection {
-  if (_itemRenderDirection != itemRenderDirection) {
+  }ion != itemRenderDirection) {
     _itemRenderDirection = itemRenderDirection;
     [self invalidateLayout];
   }
